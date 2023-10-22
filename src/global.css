@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#root {
+  background-color: var(--corBackgroundContainer);
+}
+
+:root {
+  --corPrincipal: #f9ca24;
+  --corSecundaria: #111;
+  --corBackgroundContainer: rgba(249, 202, 36, .3);
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--corBackgroundContainer);
+}
+
+h1 {
+  text-align: center;
+  color: var(--corPrincipal);
+  padding: 20px;
+  background-color: var(--corSecundaria);
+}
+
+button {
+  background-color: var(--corPrincipal);
+}
+
+@media screen and (max-width: 767px) {
+
+    .container {
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: 48px;
+    }
+
+}
