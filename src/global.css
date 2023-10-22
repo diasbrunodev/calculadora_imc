@@ -7,6 +7,7 @@
 
 #root {
   background-color: var(--corBackgroundContainer);
+  height: 100vh;
 }
 
 :root {
